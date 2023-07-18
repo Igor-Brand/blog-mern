@@ -25,7 +25,10 @@ app.use('/uploads', express.static(__dirname + '/uploads')); // Configura o midd
 
 mongoose.connect(process.env.MONGODB_URI)
  // Conecta-se ao banco de dados MongoDB usando o mongoose
-
+//teste para ver se a api está online
+app.get('/', (req, res)=> {
+  res.json("api online")
+})
 // Rota para registrar um usuário
 app.post('/register', async (req, res) => {
   const { username, password } = req.body; // Obtém o nome de usuário e senha do corpo da solicitação
