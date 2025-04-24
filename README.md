@@ -1,5 +1,4 @@
-
-# 📝 Projeto: Blog MERN com Autenticação JWT
+## 📝 Projeto: Blog MERN com Autenticação JWT
 
 Este é um **blog fullstack** desenvolvido com o **stack MERN** (MongoDB, Express.js, React e Node.js), com foco em performance e segurança. O sistema utiliza **JWT (JSON Web Token)** para autenticação de usuários e proteção de rotas privadas, permitindo que apenas usuários autenticados realizem certas ações como criar ou editar postagens.
 
@@ -18,4 +17,7 @@ Este é um **blog fullstack** desenvolvido com o **stack MERN** (MongoDB, Expres
 
 - Registro e login de usuários com autenticação JWT
 - CRUD de postagens (criar, ler, atualizar, deletar)
-
+- Visualização pública das postagens
+- Dashboard para o usuário visualizar e gerenciar seus próprios posts
+- Middleware de autenticação protegendo rotas sensíveis
+- Design responsivo com React
